@@ -14,5 +14,5 @@ app.use(express.static(join(_dirname, 'public')))
 
 
 
-app.listen(3000
+app.listen(3000)
 console.log("servidor online", 3000);
