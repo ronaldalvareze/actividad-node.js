@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%- include('partials/head') %>
+    <%- include('partials/head.ejs') %>
     <title><%=title%></title>
 </head>
 
@@ -35,7 +35,7 @@
                     </label>
                     <input type="email" name="Email" id="email" placeholder="¡Escribe tu Email aquí!">
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="Mensaje" id="mensaje cols=" 200 rows="7"
+                    <textarea name="Mensaje" id="mensaje" cols="200" rows="7"
                         placeholder="Aquí puedes escribir tu mensaje, queja o petición">
                     </textarea>`
                     <button type="submit">Enviar</button>
